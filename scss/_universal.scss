@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/*flex*/
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.flex-all-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*texts*/
+
+label {
+    color: $primary-color;
+    padding: 0 5px;
+}
+
+input::placeholder {
+    font-size: 15px;
+    color: $secondary-color;
+}
+
+a {
+    font-size: 14px;
+    color: $secondary-color;
+}
+
+
+/**/

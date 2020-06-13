@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import "config";
+@import "universal";
+@import "utilities";
+
+/**/
+
+.login-box {
+    height: 500px;
+    width: 350px;
+    background: $light-color;
+    border-radius: 10px;
+    padding: 35px;
+    box-shadow: 3px 0 20px rgba(0, 0, 0, .3), 3px 0 40px rgba(0, 0, 0, .1);
+    /*brand*/
+    .brand {
+        height: 50px;
+        width: 230px;
+        margin: 0 auto;
+        line-height: 1;
+        .logo {
+            height: 50px;
+            width: 50px;
+            img {
+                height: 100%;
+                width: 100%;
+            }
+        }
+        .title {
+            height: 50px;
+            width: 180px;
+            padding: 8px 0;
+        }
+    }
+}
+
+
+/**/
+
+.input-field {
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+    z-index: 1;
+    input {
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding-left: 25px;
+        z-index: 2;
+    }
+    label {
+        position: absolute;
+        top: -20px;
+        left: 0;
+        z-index: 3;
+    }
+    i {
+        color: $secondary-color;
+        position: absolute;
+        top: 11px;
+        left: 5px;
+        z-index: 3;
+    }
+}
+
+
+/**/
+
+.social-media {
+    margin-bottom: 10px;
+    ul {
+        list-style: none;
+        li {
+            display: inline-block;
+            margin: 5px 10px;
+            i {
+                font-size: 32px;
+            }
+            .fa-facebook {
+                color: $facebook-color;
+            }
+            .fa-twitter {
+                color: $twitter-color;
+            }
+            .fa-google-plus {
+                color: $google-plus-color;
+            }
+        }
+    }
+}
+
+
+/**/
+
+.sign-up {
+    text-align: center;
+}
+
+@import "inputs";

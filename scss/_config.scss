@@ -1,0 +1,15 @@
+/*Variable*/
+
+$font-stack:"Roboto",
+sans-serif;
+$primary-color:#444;
+$secondary-color:#666;
+$light-color:#fff;
+$dark-color:#000;
+$primary-bg:#f1ad1e;
+$secondary-bg:#d26d11;
+$linear-bg:linear-gradient(to right, $secondary-bg 5%, $primary-bg 70%, $secondary-bg 110%);
+$linear-bg-reverse:linear-gradient(to right, $primary-bg 5%, $secondary-bg 70%, $primary-bg 110%);
+$facebook-color:rgb(8, 8, 224);
+$twitter-color:rgb(9, 108, 255);
+$google-plus-color:rgb(255, 60, 0);

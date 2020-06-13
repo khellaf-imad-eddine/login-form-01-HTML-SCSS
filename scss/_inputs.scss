@@ -1,0 +1,32 @@
+input {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0 8px 0;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid $primary-color;
+}
+
+input[type="submit"] {
+    width: 50%;
+    margin: 25px auto 20px auto;
+    background: $primary-bg;
+    background: $linear-bg-reverse;
+    color: $light-color;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 1px 0 40px rgba(255, 184, 30, .5);
+    /*************/
+}
+
+input[type="submit"]:hover {
+    transform: scale(1.04);
+    transition: .3s;
+}
+
+input[type="submit"]:active {
+    transform: scale(.95);
+}
